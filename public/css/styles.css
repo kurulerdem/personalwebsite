@@ -2,17 +2,22 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.navbar-nav a{
+  color:white;
 }
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: black !important;
 }
 
 .footer-padding {
@@ -20,13 +25,13 @@
 }
 
 footer {
-    margin-top: 100px;
+  margin-top: 100px;
 	position: absolute;
 	text-align: center;
-    bottom: 0;
+  bottom: 0;
 	width: 100%;
 	height: 60px;
-    padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .footer p {
@@ -49,10 +54,17 @@ footer {
 #split{
     padding-top: 30px;
     padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
     font-size: 35px;
     letter-spacing: 5px;
     text-align: center;
+}
+p{
+  font-family: 'Lexend', sans-serif;
+  font-size: 17px;
+}
+
+#header {
+  color: white;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 23px;
 }
