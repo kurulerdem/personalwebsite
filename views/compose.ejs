@@ -1,0 +1,19 @@
+<%- include("header") -%>
+
+<h1>Compose</h1>
+<br>
+
+<form class="" action="/compose" method="post">
+    <input type="text" name="postTitle" placeholder="Article Title">
+    <hr>
+    <input type="text" name="category" placeholder="Category Name">
+    <hr>
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Content will be here" id="floatingTextarea2" style="height: 500px" name="article"></textarea>
+      </div>
+
+<button type="submit" style="margin-top: 10px;">Create Article</button>
+</form>
+
+
+<%- include("footer") -%>
