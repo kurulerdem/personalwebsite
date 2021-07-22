@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const ejs = require('ejs');
 const app = express();
 const port = 7700;
+//link yönetimi
 const _ = require("lodash");
 
 app.set('view engine','ejs');
