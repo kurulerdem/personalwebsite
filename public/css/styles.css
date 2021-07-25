@@ -54,7 +54,7 @@ footer {
 #split{
     padding-top: 30px;
     padding-bottom: 15px;
-    font-size: 35px;
+    font-size: 23px;
     letter-spacing: 5px;
     text-align: center;
 }
@@ -67,4 +67,7 @@ p{
   color: white;
   font-family: 'Yantramanav', sans-serif;
   font-size: 23px;
+}
+tr{
+  font-size: 12px;
 }

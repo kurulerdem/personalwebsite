@@ -7,24 +7,39 @@
   </div>
   </div>
 
+  <h1>Intro</h1>
    <p>
 	<%= aboutMe %>
    </p>
-  <% posts.forEach(function(post){  %>
+   <h1>Articles</h1>
+
     <div class="d-flex justify-content-center">
     <div class="col-3 col-md-4 col-sm-3" >
+    <%articleList.forEach((article) => { %>
 
-<div class="row">
-      <div class="card" style="width: 400px; border: solid 1px; padding:15px; margin-bottom:20px;">
-      <div class="card-body">
-        <h3 class="card-title"><%= post.title %></h3>
-        <h5 class="card-subtitle mb-2 text-muted"><%= post.article %></h5>
-        <p class="card-text"><%= post.category %></p>
-        <a href="posts/<%= post.title %>" class="card-link">Yazıya Git</a>
-      </div>
-    </div>
+        <div class="row">
+             <div class="card" style="width: 400px; border: solid 1px; padding:15px; margin-bottom:20px;">
+             <div class="card-body">
+               <h3 class="card-title"><%= article.title %></h3>
+               <h5 class="card-subtitle mb-2 text-muted"><%= article.category %></h5>
+               <p class="card-text"><%= article.summary %></p>
+               <a href="articles/<%= article.title %>" class="card-link">More About</a>
+             </div>
+           </div>
 
-  <% })%>
+
+
+
+
+       </div>
+
+    <%  }); %>
+
+
+
+
+
+
 
 </div>
 
